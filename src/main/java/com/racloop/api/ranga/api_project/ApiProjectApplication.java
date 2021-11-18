@@ -7,7 +7,8 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan("com.racloop.api.ranga.")
-public class ApiProjectApplication {
+public class
+ApiProjectApplication {
 
 	public static void main(String[] args) {
 
