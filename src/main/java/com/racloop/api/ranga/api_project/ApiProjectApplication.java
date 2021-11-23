@@ -6,15 +6,17 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Profile;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@ComponentScan("com.racloop.api.ranga.")
+@ComponentScan("com.racloop")
+
 public class
 ApiProjectApplication {
 
 	public static void main(String[] args) {
 
-	SpringApplication.run(ApiProjectApplication.class, args);
+	ApplicationContext ctx =SpringApplication.run(ApiProjectApplication.class, args);
 		System.out.println("\n\nMain Application Working\n\n");
 	}
 
